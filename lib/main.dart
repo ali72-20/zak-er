@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sebha/Screens/home.dart';
 
-import 'Models/HomePage.dart';
+import 'Screens/HomePage.dart';
 
 void main() {
   runApp(const Sebha());

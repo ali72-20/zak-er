@@ -2,7 +2,7 @@ import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.da
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../Models/HomePage.dart';
+import 'HomePage.dart';
 
 class home extends StatelessWidget {
   const home({super.key});
