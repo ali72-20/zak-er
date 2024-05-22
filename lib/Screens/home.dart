@@ -20,7 +20,7 @@ class home extends StatelessWidget {
           Expanded(
             child: Card(
               elevation: 20,
-              margin: EdgeInsets.only(left: 20,right: 20,top: 50,bottom: 70),
+              margin: EdgeInsets.only(left: 20,right: 20,top: 100,bottom: 70),
               color: Color(0xffF6AF58),
               child: AzkarComp(),
             ),

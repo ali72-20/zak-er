@@ -84,12 +84,10 @@ class _BottomNavBarState extends State<Homepage> {
         centerTitle: true,
       ),
       body: body.elementAt(_currentIndex),
-      bottomNavigationBar:  Padding(
+      bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(12),
         child: ClipRRect(
-          borderRadius: const BorderRadius.all(
-           Radius.circular(10)
-          ),
+          borderRadius: const BorderRadius.all(Radius.circular(10)),
           child: BottomNavigationBar(
             iconSize: 24,
             selectedItemColor: Colors.white,
