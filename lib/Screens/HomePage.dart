@@ -80,20 +80,20 @@ class _BottomNavBarState extends State<Homepage> {
             color: Colors.white,
           ),
         ),
-        backgroundColor: Color(0xff1391A2),
+        backgroundColor: Color(0xff102A2B),
         centerTitle: true,
       ),
       body: body.elementAt(_currentIndex),
       bottomNavigationBar:  Padding(
-        padding: const EdgeInsets.all(24),
+        padding: const EdgeInsets.all(12),
         child: ClipRRect(
-          borderRadius: BorderRadius.all(
-           Radius.circular(30.0)
+          borderRadius: const BorderRadius.all(
+           Radius.circular(10)
           ),
           child: BottomNavigationBar(
             iconSize: 24,
             selectedItemColor: Colors.white,
-            backgroundColor: Color(0xff1391A2),
+            backgroundColor: Color(0xff5D8082),
             currentIndex: _currentIndex,
             onTap: onItemTap,
             items: SelectedList(),

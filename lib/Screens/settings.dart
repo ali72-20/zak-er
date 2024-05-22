@@ -8,7 +8,8 @@ class settings extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("Settings"),
+      backgroundColor: const Color(0xff102A2B),
+      body: Text("Setteng"),
     );
   }
 }
