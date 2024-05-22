@@ -18,16 +18,10 @@ class home extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Expanded(
-            child: Container(
-              width: double.infinity,
-              margin:
-                  EdgeInsets.only(left: 25, right: 25, top: 30, bottom: 100),
-              decoration: const BoxDecoration(
-                color: Color(0xffF6AF58),
-                borderRadius: BorderRadius.all(
-                  Radius.circular(20),
-                ),
-              ),
+            child: Card(
+              elevation: 20,
+              margin: EdgeInsets.only(left: 20,right: 20,top: 50,bottom: 70),
+              color: Color(0xffF6AF58),
               child: AzkarComp(),
             ),
           ),
